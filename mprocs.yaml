@@ -1,0 +1,9 @@
+procs:
+  node1:
+    shell: "make node1"
+  node2:
+    shell: "make node2"
+  node3:
+    shell: "make node3"
+  node4:
+    shell: "make node4"

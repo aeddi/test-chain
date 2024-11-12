@@ -44,9 +44,9 @@ priv_validator_state_file = "secrets/priv_validator_state.json"
 # TCP or UNIX socket address for the profiling server to listen on
 prof_laddr = ""
 
-# TCP or UNIX socket address of the ABCI application, 
+# TCP or UNIX socket address of the ABCI application,
 # or the name of an ABCI application compiled in with the Tendermint binary
-proxy_app = "tcp://127.0.0.1:26658"
+proxy_app = "tcp://127.0.0.1:26856"
 
 ##### consensus configuration options #####
 [consensus]
@@ -93,7 +93,7 @@ proxy_app = "tcp://127.0.0.1:26658"
 [p2p]
 
   # Toggle to disable guard against peers connecting from the same ip.
-  allow_duplicate_ip = false
+  allow_duplicate_ip = true
   dial_timeout = "3s"
 
   # Address to advertise to peers for them to dial
@@ -223,7 +223,7 @@ proxy_app = "tcp://127.0.0.1:26658"
   tls_key_file = ""
 
   # Activate unsafe RPC commands like /dial_seeds and /unsafe_flush_mempool
-  unsafe = false
+  unsafe = true
 
 ##### node telemetry #####
 [telemetry]
