@@ -110,7 +110,7 @@ proxy_app = "tcp://127.0.0.1:26658"
   home = ""
 
   # Address to listen for incoming connections
-  laddr = "tcp://0.0.0.0:26656"
+  laddr = "tcp://127.0.0.1:26757"
 
   # Maximum number of inbound peers
   max_num_inbound_peers = 40
@@ -122,7 +122,7 @@ proxy_app = "tcp://127.0.0.1:26658"
   max_packet_msg_payload_size = 1024
 
   # Comma separated list of nodes to keep persistent connections to
-  persistent_peers = ""
+  persistent_peers = "g15trry289sr2uqs7vsgyu2qycv7fye9zj2gaput@127.0.0.1:26756,g1ttra4fh00nxt23d5ce6llwa33hs0j3232xx53x@127.0.0.1:26755,g1q3zv6h2tcpc5y2hr6lar5ac9pvlj2nk0skruke@127.0.0.1:26754"
 
   # Set true to enable the peer-exchange reactor
   pex = true
