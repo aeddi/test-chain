@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "concurrently": "concurrently --names 'node1,node2,node3,node4' --prefix-colors 'red.bold,green.bold,yellow.bold,blue.bold' \"make node1\" \"make node2\" \"make node3\" \"make node4\"",
+    "mprocs": "mprocs --names 'node1,node2,node3,node4' \"make node1\" \"make node2\" \"make node3\" \"make node4\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "mprocs": "^0.7.1"
+  }
+}

@@ -1,3 +1,4 @@
-node*/gnoland-data/db
-node*/gnoland-data/wal
+nodes/node*/gnoland-data/db
+nodes/node*/gnoland-data/wal
 mprocs.log
+node_modules
